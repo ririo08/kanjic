@@ -1,6 +1,6 @@
 {
   "name": "kanjic",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/kanjic.umd.js",
   "module": "dist/kanjic.es.js",
   "devDependencies": {
@@ -16,5 +16,5 @@
     "preview": "vite preview"
   },
   "type": "module",
-  "types": "types/index.d.ts"
+  "types": "dist/types/index.d.ts"
 }
