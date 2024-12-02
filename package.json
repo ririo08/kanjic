@@ -1,6 +1,6 @@
 {
   "name": "kanjic",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/kanjic.umd.js",
   "module": "dist/kanjic.es.js",
   "devDependencies": {
@@ -12,7 +12,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "type": "module",
