@@ -1,0 +1,20 @@
+{
+  "name": "kanjic",
+  "version": "0.0.0",
+  "main": "dist/kanjic.umd.js",
+  "module": "dist/kanjic.es.js",
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.0.2",
+    "vite-plugin-dts": "^4.3.0",
+    "vitest": "^2.1.8"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "types": "types/index.d.ts"
+}
