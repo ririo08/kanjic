@@ -1,0 +1,12 @@
+# 除外したいファイルやディレクトリを記載
+src/
+vite.config.ts
+tsconfig.json
+node_modules/
+.git/
+.vscode/
+tests/
+index.html
+bun.lockb
+.gitignore
+npm-debug.log
