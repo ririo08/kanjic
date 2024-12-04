@@ -2,5 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "schedule": "before 2pm on Tuesday",
+  "timezone": "Asia/Tokyo",
+  "prHourlyLimit": 0,
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "minor and patch dependencies"
+    }
   ]
 }
