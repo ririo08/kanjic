@@ -1,6 +1,6 @@
 {
   "name": "kanjic",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "dist/kanjic.umd.js",
   "module": "dist/kanjic.es.js",
   "devDependencies": {
