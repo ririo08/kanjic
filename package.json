@@ -5,9 +5,9 @@
   "module": "dist/kanjic.es.js",
   "devDependencies": {
     "typescript": "~5.8.2",
-    "vite": "^6.2.3",
+    "vite": "^6.2.5",
     "vite-plugin-dts": "^4.5.3",
-    "vitest": "^3.0.9"
+    "vitest": "^3.1.1"
   },
   "private": false,
   "scripts": {
