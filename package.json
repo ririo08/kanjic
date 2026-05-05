@@ -1,21 +1,28 @@
 {
   "name": "kanjic",
   "version": "0.1.4",
-  "main": "dist/kanjic.umd.js",
-  "module": "dist/kanjic.es.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "devDependencies": {
+    "tsdown": "^0.21.10",
     "typescript": "~6.0.3",
-    "vite": "^8.0.10",
-    "vite-plugin-dts": "^5.0.0",
     "vitest": "^4.1.5"
   },
   "private": false,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest run"
+    "lint": "eslint --cache .",
+    "lint:fix": "bun run lint --fix",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --cache --write .",
+    "prepublishOnly": "bun run build"
   },
   "type": "module",
-  "types": "dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  }
 }
