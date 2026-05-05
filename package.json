@@ -4,7 +4,7 @@
   "main": "dist/kanjic.umd.js",
   "module": "dist/kanjic.es.js",
   "devDependencies": {
-    "typescript": "~5.8.3",
+    "typescript": "~6.0.3",
     "vite": "^6.3.5",
     "vite-plugin-dts": "^5.0.0",
     "vitest": "^3.2.4"
